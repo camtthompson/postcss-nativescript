@@ -1,18 +1,19 @@
 {
-  "name": "PLUGIN_NAME",
+  "name": "postcss-nativescript",
   "version": "0.0.0",
-  "description": "PostCSS plugin PLUGIN_DESC",
+  "description": "PostCSS plugin to remove unsupported attribute and tags from current css files.",
   "keywords": [
     "postcss",
     "css",
-    "postcss-plugin"KEYWORDS
+    "postcss-plugin",
+    "nativescipt"
   ],
   "scripts": {
     "test": "jest && eslint ."
   },
-  "author": "AUTHOR_NAME <AUTHOR_EMAIL>",
+  "author": "Cameron Thompson <camtthompson@gmail.com>",
   "license": "MIT",
-  "repository": "GITHUB_NAME/PLUGIN_NAME",
+  "repository": "camtthompson/postcss-nativescript",
   "dependencies": {
     "postcss": "^7.0.18"
   },

@@ -1,4 +1,4 @@
-# PostCSS Plugin Boilerplate
+# PostCSS Plugin Nativescript
 
 <img align="right" width="135" height="95"
      title="Philosopher’s stone, logo of PostCSS"

@@ -1,12 +1,9 @@
 let postcss = require('postcss')
 
-module.exports = postcss.plugin('PLUGIN_NAME', (opts = { }) => {
-
-  // Work with options here
-
-  return (root, result) => {
-
-    // Transform CSS AST here
-
-  }
-})
+module.exports = postcss.plugin('postcss-nativescript', (options = {}) => {
+  return css => {
+      css.walkDecls(decl => {
+          decl.important = false;
+      });
+  };
+});
